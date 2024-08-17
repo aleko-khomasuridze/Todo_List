@@ -6,9 +6,10 @@ public class TodoItem {
     private String description;
     private boolean completed;
 
-    public TodoItem(String description, boolean completed) {
+
+    public TodoItem(String description) {
         this.description = description;
-        this.completed = completed;
+        this.completed = false;
     }
 
     public String getDescription() {
